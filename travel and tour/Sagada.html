@@ -1,0 +1,268 @@
+<?php
+include 'connection.php';
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sagada Package</title>
+
+        <!-- links--> 
+        <link rel="stylesheet" href="styles.css"/>
+        <!--Icon link-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+         <!-- font links--> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    </head>
+
+<body>
+    
+ <nav>
+        <div class="navbar">
+            
+                <!-- logo nav/ size adjust--> 
+                <a href="index.html"><img src="IMAGES/DAYO LOGO.png" width="100" 
+                    height="100"></a>
+                    <div id="navLinks" class="nav-links">
+
+                    <i class='bx bx-x' onclick="hideMenu()"></i>
+                    
+                    <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="packages.html">Packages</a></li>
+                        <li><a href="plan.html">Make your own Itinerary</a></li>
+                        <li><a href="transaction.php">Transaction</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="settings.html">Profile</a></li>
+                        <li class="right-align"><a href="sign.html">Log Out</a></li>
+                    </ul>
+                    </div>
+                
+<section class="banner"></section>
+<script type="text/javascript">
+    window.addEventListener("scroll", function () {
+      var header = document.querySelector("nav");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    });
+  </script>
+  
+                </div>
+                <i class='bx bx-menu-alt-right'onclick="showMenu" ></i>
+            </nav>
+
+
+  
+
+        </div>
+        </section>
+
+
+    
+</div>
+
+<body>
+  <header>
+    <img class="full-image" src="https://4.bp.blogspot.com/-KBzfbc_Chss/UFwBH2DWdfI/AAAAAAAAKls/F1DXQ51kvy4/s1600/00.jpg" alt="Full Image">
+    <div class="image-overlay">
+      <a href="packages.html"><img src="IMAGES/DAYO LOGO.png" width="150" 
+        height="150"></a>
+      <h1>Sagada Escape</h1>
+      <div class="explanation">
+        <strong>Places to visit in Sagada:</strong>
+        <ul>
+          <li>
+            <strong>Hanging Coffins:</strong> Explore the unique tradition of hanging coffins and learn about the indigenous burial practices.
+          </li>
+          <li>
+            <strong>Sumaguing Cave:</strong> Embark on an exciting spelunking adventure in the magnificent Sumaguing Cave, known for its stunning rock formations.
+          </li>
+          <li>
+            <strong>Echo Valley:</strong> Discover Echo Valley's natural beauty and experience the thrill of hearing your voice echo through the mountains.
+          </li>
+          <li>
+            <strong>Mt. Kiltepan Viewpoint:</strong> Enjoy a breathtaking sunrise view at Mt. Kiltepan Viewpoint, overlooking the picturesque Sagada landscape.
+          </li>
+          <li>
+            <strong>Bomod-ok Falls:</strong> Immerse yourself in the beauty of Bomod-ok Falls, a majestic waterfall surrounded by lush greenery.
+          </li>
+        </ul>
+      </div>
+     
+    </div>
+  </header>
+  <section id="inclusion" class="inclusion-section">
+    <h2>Package Inclusion:</h2>
+    <div class="pack_inc" class="pack-inclusions">
+    <ul>
+      <li>2 nights' accommodation</li>
+      <li>Guided tours to Sagada's renowned limestone caves, unveiling ancient formations and mystical wonders.</li>
+      <li>Kiltepan Viewpoint Sunrise Experience.</li>
+      <li>Cultural Immersion Activities</li>
+    </ul>
+    <em>Note: Itineraries are subject to change based on availability and local conditions.</em>
+    </div>
+    </section>
+
+
+  <section class="itinerary-section">
+    <h2 class="itinerary-title">Daily Itinerary</h2>
+    <div class="itinerary-item">
+      <img class="itinerary-img" src="https://4.bp.blogspot.com/-KBzfbc_Chss/UFwBH2DWdfI/AAAAAAAAKls/F1DXQ51kvy4/s1600/00.jpg" alt="Hanging Coffins">
+      <div>
+        <h3>Day 1: Cultural Immersion and Arrival</h3>
+        <p>Arrive in Sagada and settle into your cozy accommodations. Engage in cultural immersion activities, connecting with the local community and gaining insight into the unique traditions that shape Sagada's identity.</p>
+      </div>
+    </div>
+
+    <div class="itinerary-item reverse">
+      <img class="itinerary-img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBStcHbs7ZMLGXUEoSAzd61CnGIy4RDNmRnSrwUtLFA0Idb14Abr65_YufRJqf93A0B6HSKfWMuPWC7226IF9wChoX6VSxXgIEtS5OmM_wH_kIE_C3dEe29bEvlsvSgTBpeCa0QfV1K47yMPhOORKvKdlS2yB_BTLniYZ7eA8CPLEeHHkb5YWVNHjn9w/s2033/Sumaguing%20Cave%20Sagada.jpg" alt="Sumaguing Cave">
+      <div>
+        <h3>Day 2: Cave Exploration and Kiltepan Sunrise
+        </h3>
+        <p>Venture into the mystical underworld with guided cave exploration tours, discovering the ancient formations that lie beneath the surface. In the evening, anticipate the breathtaking Kiltepan Viewpoint sunrise, where the mountains unveil a mesmerizing spectacle.
+
+        </p>
+      </div>
+    </div>
+
+    <div class="itinerary-item">
+      <img class="itinerary-img" src="https://i0.wp.com/farm8.staticflickr.com/7013/6420186451_6722c47961_z.jpg?resize=640%2C425" alt="Echo Valley">
+      <div>
+        <h3>Day 3: Serenity in Nature and Departure</h3>
+        <p>Savor the serenity of Sagada's landscapes on your final day. Take in the tranquil surroundings and, optionally, participate in guided tours or authentic local experiences. As the day concludes, bid farewell to Sagada, carrying the memories of a mountain retreat filled with culture, exploration, and natural beauty.</p>
+      </div>
+    </div>
+    <a class="book-now-button" href="book.html">Book Now</a>
+
+    </div>
+  </section>
+  <style>
+    header {
+      position: relative;
+      text-align: center;
+    }
+
+    .full-image {
+      width: 100%;
+      height: auto;
+      display: block;
+      opacity: 0.7;
+      border-radius: 0px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .image-overlay {
+      position: absolute;
+      width: 100%;
+      height: 70%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 50px;
+      box-sizing: border-box;
+      color: white;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(5px);
+      border-radius: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .itinerary-section {
+      background-color: #e2f3e2;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .image-overlay h1 {
+      font-size: 48px;
+      color: green;
+      text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    }
+
+    .itinerary-title {
+      font-size: 36px;
+      margin-bottom: 30px;
+      color: #4caf50;
+    }
+
+    .itinerary-item {
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-align: left;
+      padding: 20px;
+      border-radius: 20px;
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .book-now-button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 24px;
+      text-decoration: none;
+      background-color: #4caf50;
+      color: white;
+      text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+      border-radius: 50px;
+      transition: background-color 0.3s ease;
+    }
+    .book-now-button:hover {
+      background-color: #45a049;
+    }
+
+    .explanation ul {
+      text-align: left;
+      margin-left: 20px;
+    }
+
+    .image-overlay h1 {
+      font-size: 48px;
+    }
+
+    .explanation strong {
+      font-size: 30px;
+    }
+
+    .explanation ul li {
+      font-size: 25px;
+    }
+
+    .itinerary-item {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      justify-content: flex-start; /* Modified */
+    }
+
+    .itinerary-img {
+      width: 400px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .itinerary-item.reverse {
+      flex-direction: row-reverse;
+      justify-content: flex-end; /* Modified */
+    }
+    .pack_inc{
+    font-size: 20px;
+    }
+  </style>
+</head>
+
+ 
+  </section>
+</body>
+</html>
